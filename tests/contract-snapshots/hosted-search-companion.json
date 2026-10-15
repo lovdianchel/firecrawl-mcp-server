@@ -10,7 +10,26 @@
       "protocolVersion": "2025-06-18",
       "serverInfo": {
         "name": "firecrawl-fastmcp",
-        "version": "<version>"
+        "version": "<version>",
+        "description": "Search the web and developer, government and research indexes, scrape pages, and run catalogued structured-data providers. Built for AI agents.",
+        "icons": [
+          {
+            "src": "https://www.firecrawl.dev/logo.svg",
+            "mimeType": "image/svg+xml",
+            "sizes": [
+              "any"
+            ]
+          },
+          {
+            "src": "https://www.firecrawl.dev/apple-touch-icon.png",
+            "mimeType": "image/png",
+            "sizes": [
+              "180x180"
+            ]
+          }
+        ],
+        "title": "Firecrawl",
+        "websiteUrl": "https://docs.firecrawl.dev/mcp-server?utm_source=mcp-server&utm_medium=server-info"
       }
     },
     "tools": [

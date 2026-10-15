@@ -46,6 +46,12 @@ export function createServiceHooks(
 ): FirecrawlMcpServerHooks {
   const searchSurface = profile.id === 'search';
   const hooks: FirecrawlMcpServerHooks = {
+    ...(searchSurface
+      ? {
+          description:
+            'Search the web and developer, government and research indexes, scrape pages, and run catalogued structured-data providers. Built for AI agents.',
+        }
+      : {}),
     instructions: (defaults) =>
       searchSurface
         ? SEARCH_PROFILE_INSTRUCTIONS
